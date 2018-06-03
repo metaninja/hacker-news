@@ -1,0 +1,15 @@
+/* Hacker News Variables */
+:root {
+  --hn-primary-color: #E65100;
+  --hn-secondary-color: #37474F;
+  --hn-secondary-active: #78909C;
+  --hn-warning-color: #FFA726;
+  --hn-divider-color: rgba(0,0,0,.1);
+  --white: #fff;
+  --hn-gray-lightest: #f5f5f5;
+}
+
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }

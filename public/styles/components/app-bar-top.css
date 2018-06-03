@@ -1,0 +1,37 @@
+.app-bar-top {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px;
+    background-color: var(--hn-primary-color);
+    color: var(--white);
+}
+.app-bar-top .logo {
+    margin: 0 6px;
+}
+.app-bar-top h1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1;
+    text-align: left;
+
+}
+.app-bar-top__right {
+    margin: 0;
+}
+.app-bar-top__right a {
+    display: block;
+}
+.app-bar-top a {
+    color: var(--white);
+    text-decoration: none;
+}
