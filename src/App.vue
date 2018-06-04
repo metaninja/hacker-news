@@ -1,16 +1,20 @@
 <template>
-  <div id="app">
-    <News></News>
-  </div>
+  <main id="app" class="page-container">
+    <app-bar-top></app-bar-top>
+    <new-articles></new-articles>
+  </main>
 </template>
 
 <script>
 import News from './components/News.vue';
+import AppBarTop from './components/AppBarTop.vue';
+
 
 export default {
   name: 'app',
   components: {
-    News
+      'app-bar-top': AppBarTop,
+      'new-articles': News
   }
 }
 </script>

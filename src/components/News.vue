@@ -1,26 +1,5 @@
 <template>
-  <main id="news" class="page-container">
-    <header class="app-bar-top">
-      <h1>
-        <a href="#" class="logo">
-          <i class="material-icons">menu</i>
-        </a>
-        Hacker News
-      </h1>
-      <div class="app-bar-top__right">
-        <a href="#"><i class="material-icons">account_circle</i></a>
-      </div>
-    </header>
-    <nav>
-      <ul class="tabs">
-        <li class="tabs__tab tabs__tab--active"><a href="#">New</a></li>
-        <li class="tabs__tab"><a href="#">Comments</a></li>
-        <li class="tabs__tab"><a href="#">Show</a></li>
-        <li class="tabs__tab"><a href="#">Ask</a></li>
-        <li class="tabs__tab"><a href="#">Jobs</a></li>
-      </ul>
-    </nav>
-
+  <div id="news">
     <section class="articles">
       <article class="card" v-for="article in articles" v-bind:key="article.id">
         <header class="card__header">
@@ -69,7 +48,7 @@
       <i class="material-icons">add</i>
     </a>
 
-  </main>
+  </div>
 </template>
 
 <script>
